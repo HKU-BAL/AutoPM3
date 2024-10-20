@@ -23,6 +23,7 @@ We introduce AutoPM3, a method for automating the extraction of ACMG/AMP PM3 evi
 - [Usage](#usage)
     - [Quick Start](#quick-start)
     - [Advanced Usage](#advanced-usage-of-the-python-script)
+- [PM3-Bench](#pm3-bench)
 - [TODO](#todo)
 ---
 
@@ -47,7 +48,6 @@ mkdir ollama_models
 export OLLAMA_MODELS=./ollama_models
 ```
 
-3. Launch Ollama server:
 
 ```bash
 
@@ -107,6 +107,9 @@ python AutoPM3_main.py
 --paper_path ./xml_papers/20201936.xml ## paper path.
 --model_name_text llama3_loraFT-8b-f16 ## change to llama3:70b or other hosted models as the backend of RAG as you prefer, noted that you need pull the model in Ollama in advance.
 ```
+
+## PM3-Bench
+* We released PM3-Bench used in this study, details listed in [PM3-Bench tutorial](PM3-Bench/README.md)
 
 ## TODO
 * A fast set up for AutoPM3.
