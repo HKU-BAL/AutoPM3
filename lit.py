@@ -40,11 +40,15 @@ def display_results(model, data):
 # Main
 st.title('AutoPM3')
 
-variant_name = st.text_input('Step 1. Enter the variant (HGVS notation)')
+if st.button('Example', type='primary'):
+    st.session_state.variant_name = 'NM_004004.5:c.71G>A'
+    st.session_state.pmid = '15070423'
+
+variant_name = st.text_input('Step 1. Enter the variant (HGVS notation)', key='variant_name')
 
 # Get the URL of the XML from the user
 paper_url = ''
-pmid = st.text_input('Step 2. Enter the PMID of the paper')
+pmid = st.text_input('Step 2. Enter the PMID of the paper', key='pmid')
 if pmid:
     try:
         pmid = int(pmid)
