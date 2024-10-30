@@ -17,6 +17,7 @@ We introduce AutoPM3, a method for automating the extraction of ACMG/AMP PM3 evi
 ## Contents
 
 - [Latest Updates](#latest-updates)
+- [Online Demo](#online-demo)
 - [Installations](#installation)
     - [Dependency Installation](#dependency-installation)
     - [Ollama Setup](#using-ollama-to-host-llms)
@@ -30,7 +31,8 @@ We introduce AutoPM3, a method for automating the extraction of ACMG/AMP PM3 evi
 ## Latest Updates
 * v0.1 (Oct, 2024): Initial release.
 ---
-
+## Online Demo
+* Check out our online demo: [AutoPM3-demo](https://www.bio8.cs.hku.hk/autopm3-demo/). Please note, due to limited computing resources, we recommend deploying AutoPM3 locally to avoid long queuing times.
 ## Installation
 ### Dependency Installation
 ```bash
