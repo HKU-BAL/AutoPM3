@@ -11,6 +11,8 @@ Email: rbluo@cs.hku.hk, lishumin@connect.hku.hk
 ## Introduction
 We introduce AutoPM3, a method for automating the extraction of ACMG/AMP PM3 evidence from scientific literature using open-source LLMs. It combines an optimized RAG system for text comprehension and a TableLLM equipped with Text2SQL for data extraction. We evaluated AutoPM3 using our collected PM3-Bench, a dataset from ClinGen with 1,027 variant-publication pairs. AutoPM3 significantly outperformed other methods in variant hit and in trans variant identification, thanks to the four key modules. Additionally, we wrapped AutoPM3 with a user-friendly interface to enhances its accessibility. This study presents a powerful tool to improve rare disease diagnosis workflows by facilitating PM3-relevant evidence extraction from scientific literature.
 
+AutoPM3's manucript describing its algorithms and results is at [BioRxiv](https://www.biorxiv.org/content/10.1101/2024.10.29.621006v1)
+
 ![](./images/img1.png)
 ---
 
