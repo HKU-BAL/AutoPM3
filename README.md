@@ -1,6 +1,7 @@
 # AutoPM3: Enhancing Variant Interpretation via LLM-driven PM3 Evidence Extraction from Scientific Literature
 
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/license/mit/) 
+[![DOI](https://zenodo.org/badge/872230347.svg)](https://doi.org/10.5281/zenodo.15629003)
 
 
 Contact: Ruibang Luo, Shumin Li
